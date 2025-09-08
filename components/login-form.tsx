@@ -200,7 +200,7 @@ export function LoginForm() {
               onCheckedChange={(checked) => setFormData((prev) => ({ ...prev, rememberMe: checked as boolean }))}
             />
             <Label htmlFor="rememberMe" className="text-sm text-muted-foreground">
-              Remember me for 7 days
+              Remember me 
             </Label>
           </div>
 
