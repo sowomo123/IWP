@@ -1,6 +1,7 @@
 import { Header } from "@/components/header"
 import { Hero } from "@/components/hero"
 import { Features } from "@/components/features"
+import { Footer } from "@/components/Footer"
 
 export default function HomePage() {
   return (
@@ -10,6 +11,7 @@ export default function HomePage() {
         <Hero />
         <Features />
       </main>
+      <Footer />
     </div>
   )
 }
