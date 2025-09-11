@@ -23,13 +23,13 @@ export function Hero() {
         </h1>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center mt-12">
-          <Button size="lg" className="bg-[#87CEEB] hover:bg-[#1E90D2] text-white px-8 py-3 text-lg" asChild>
+          <Button size="lg" variant={"outline"} className="border-white text-black hover:bg-white hover:text-[#27B0F5] px-8 py-3 text-lg" asChild>
             <Link href="/register">Start Planning Today</Link>
           </Button>
           <Button 
             size="lg" 
             variant="outline" 
-            className="border-white text-white hover:bg-white hover:text-[#27B0F5] px-8 py-3 text-lg" 
+            className="border-white text-black hover:bg-white hover:text-[#27B0F5] px-8 py-3 text-lg" 
             asChild
           >
             <Link href="/login">Sign In</Link>
